@@ -2,27 +2,24 @@
 
 ## Introdução
 
-O objetivo deste projeto é construir um dashboard para realizar análises de dados sobre os dados da Uber, utilizando diversas ferramentas e tecnologias, como Python, AWS S3, AWS EC2, Mage Data Pipeline e Looker Studio. 
+O objetivo deste projeto é construir um dashboard para realizar análises de dados sobre os dados da Uber, utilizando diversas ferramentas e tecnologias, como Python, AWS e Airflow. 
 
 ## Arquitetura
 <img src="arquitetura.png">
 
 ## Tecnologias utilizadas
-- Linguagem de programação: Python
-
-- AWS
+- Linguagem de programação: Python e SQL
+- Data Pipeline: Airflow
+- Data Transformation: dbt
+- Cloud (AWS)
 1. S3
 2. EC2
 3. Athena
-
-- GCP
-1. Looker Studio
-
-- Data Pipeline: https://www.mage.ai/
+4. QuickSight
 
 ## Dataset Utilizado
 - TLC Trip Record Data <br>
-Os dados são registrados para viagens da Uber no ano de 2016. Os registros de viagens incluem campos para datas/horários de embarque e desembarque, locais de embarque e desembarque, distâncias das viagens, tarifas detalhadas, tipos de pagamento e contagem de passageiros informada pelo motorista.
+Os dados são registrados para viagens da Uber no ano de 2024. Os registros de viagens incluem campos para datas/horários de embarque e desembarque, distâncias das viagens, tarifas detalhadas, tipos de pagamento, receitas e contagem de passageiros informada pelo motorista.
 
 - Dataset: https://github.com/Douglas-L-A/Uber_data_pipeline/blob/main/data/uber_data.csv
 
