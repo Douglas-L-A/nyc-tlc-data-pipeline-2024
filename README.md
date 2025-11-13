@@ -5,7 +5,7 @@
 O objetivo deste projeto é construir um dashboard para realizar análises de dados sobre os dados da Uber, utilizando diversas ferramentas e tecnologias, como Python, AWS e Airflow. 
 
 ## Arquitetura
-<img src="arquitetura.png">
+<img src="arquitetura.jpg">
 
 ## Tecnologias utilizadas
 - Linguagem de programação: Python e SQL
