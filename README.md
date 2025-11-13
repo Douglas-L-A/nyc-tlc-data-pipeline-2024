@@ -31,4 +31,4 @@ Os dados são registrados para viagens da Uber no ano de 2024. Os registros de v
 <img src="data_model.jpeg">
 
 ## Uber Dashboard
-[Veja o dashboard no Looker Studio](https://lookerstudio.google.com/embed/reporting/1efbe39a-1da8-4b2c-93f2-2d0f4a38e8b4/page/StadF)
+[Veja o dashboard no QuickSight]([https://lookerstudio.google.com/embed/reporting/1efbe39a-1da8-4b2c-93f2-2d0f4a38e8b4/page/StadF](https://us-east-1.quicksight.aws.amazon.com/sn/accounts/751442556384/dashboards/d73557df-3fc5-4626-a643-ab9122e7ebf0?directory_alias=douglas-quicksight))
