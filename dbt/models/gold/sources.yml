@@ -1,0 +1,14 @@
+version: 2
+
+sources:
+  - name: silver
+    database: AwsDataCatalog
+    schema: silver
+    tables:
+      - name: fact_table
+      - name: vendor_dim
+      - name: datetime_dim
+      - name: passenger_count_dim
+      - name: trip_distance_dim
+      - name: rate_code_dim
+      - name: payment_type_dim
